@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_major_projects",
+  "info": {
+    "displayName": "major_projects",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "project_list": {
+      "type": "component",
+      "component": "shared.project-list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

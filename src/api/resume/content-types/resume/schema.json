@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resumes",
+  "info": {
+    "singularName": "resume",
+    "pluralName": "resumes",
+    "displayName": "Resume"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "resume_ref_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "component",
+      "component": "shared.skills",
+      "repeatable": true
+    },
+    "work_history": {
+      "type": "component",
+      "component": "shared.work-history",
+      "repeatable": true
+    },
+    "major_projects": {
+      "type": "component",
+      "component": "shared.major-projects",
+      "repeatable": true
+    },
+    "education": {
+      "type": "component",
+      "component": "shared.education",
+      "repeatable": true
+    },
+    "languages": {
+      "type": "component",
+      "component": "shared.languages",
+      "repeatable": true
+    }
+  }
+}

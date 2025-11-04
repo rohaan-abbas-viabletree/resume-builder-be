@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_work_histories",
+  "info": {
+    "displayName": "work_history",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "component": "shared.list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_project_lists",
+  "info": {
+    "displayName": "project_list"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

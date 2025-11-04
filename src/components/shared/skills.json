@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_skills",
+  "info": {
+    "displayName": "skills",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "skill_name": {
+      "type": "string"
+    },
+    "skill_level": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}
