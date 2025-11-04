@@ -7,9 +7,10 @@ export interface SharedEducation extends Struct.ComponentSchema {
     icon: 'database';
   };
   attributes: {
-    date: Schema.Attribute.Date;
     education_info: Schema.Attribute.String;
     education_name: Schema.Attribute.String;
+    end_date: Schema.Attribute.Date;
+    start_date: Schema.Attribute.Date;
   };
 }
 
@@ -140,11 +141,12 @@ export interface SharedWorkHistory extends Struct.ComponentSchema {
     icon: 'envelop';
   };
   attributes: {
-    date: Schema.Attribute.Date;
     description: Schema.Attribute.String;
     designation: Schema.Attribute.String;
+    end_date: Schema.Attribute.Date;
     list: Schema.Attribute.Component<'shared.list', true>;
     location: Schema.Attribute.String;
+    start_date: Schema.Attribute.Date;
   };
 }
 

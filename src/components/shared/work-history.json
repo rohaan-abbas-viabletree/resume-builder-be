@@ -6,7 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "date": {
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
       "type": "date"
     },
     "designation": {
