@@ -10,6 +10,7 @@ export interface SharedEducation extends Struct.ComponentSchema {
     education_info: Schema.Attribute.String;
     education_name: Schema.Attribute.String;
     end_date: Schema.Attribute.Date;
+    is_current: Schema.Attribute.Boolean;
     start_date: Schema.Attribute.Date;
   };
 }
@@ -144,6 +145,7 @@ export interface SharedWorkHistory extends Struct.ComponentSchema {
     description: Schema.Attribute.String;
     designation: Schema.Attribute.String;
     end_date: Schema.Attribute.Date;
+    is_current: Schema.Attribute.Boolean;
     list: Schema.Attribute.Component<'shared.list', true>;
     location: Schema.Attribute.String;
     start_date: Schema.Attribute.Date;

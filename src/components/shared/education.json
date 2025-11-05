@@ -17,6 +17,9 @@
     },
     "education_info": {
       "type": "string"
+    },
+    "is_current": {
+      "type": "boolean"
     }
   },
   "config": {}

@@ -25,6 +25,9 @@
       "type": "component",
       "component": "shared.list",
       "repeatable": true
+    },
+    "is_current": {
+      "type": "boolean"
     }
   },
   "config": {}
