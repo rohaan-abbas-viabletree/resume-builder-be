@@ -7,8 +7,8 @@ export interface SharedEducation extends Struct.ComponentSchema {
     icon: 'database';
   };
   attributes: {
-    education_info: Schema.Attribute.String;
-    education_name: Schema.Attribute.String;
+    education_info: Schema.Attribute.Text;
+    education_name: Schema.Attribute.Text;
     end_date: Schema.Attribute.Date;
     is_current: Schema.Attribute.Boolean;
     start_date: Schema.Attribute.Date;
@@ -23,8 +23,8 @@ export interface SharedLanguages extends Struct.ComponentSchema {
   };
   attributes: {
     level: Schema.Attribute.Integer;
-    level_name: Schema.Attribute.String;
-    name: Schema.Attribute.String;
+    level_name: Schema.Attribute.Text;
+    name: Schema.Attribute.Text;
   };
 }
 
@@ -34,7 +34,7 @@ export interface SharedList extends Struct.ComponentSchema {
     displayName: 'list';
   };
   attributes: {
-    description: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
   };
 }
 
@@ -45,8 +45,8 @@ export interface SharedMajorProjects extends Struct.ComponentSchema {
     icon: 'attachment';
   };
   attributes: {
-    description: Schema.Attribute.String;
-    name: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
+    name: Schema.Attribute.Text;
     project_list: Schema.Attribute.Component<'shared.project-list', true>;
   };
 }
@@ -68,7 +68,7 @@ export interface SharedProjectList extends Struct.ComponentSchema {
     displayName: 'project_list';
   };
   attributes: {
-    description: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
   };
 }
 
@@ -119,7 +119,7 @@ export interface SharedSkills extends Struct.ComponentSchema {
   };
   attributes: {
     skill_level: Schema.Attribute.Integer;
-    skill_name: Schema.Attribute.String;
+    skill_name: Schema.Attribute.Text;
   };
 }
 
@@ -142,12 +142,12 @@ export interface SharedWorkHistory extends Struct.ComponentSchema {
     icon: 'envelop';
   };
   attributes: {
-    description: Schema.Attribute.String;
-    designation: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
+    designation: Schema.Attribute.Text;
     end_date: Schema.Attribute.Date;
     is_current: Schema.Attribute.Boolean;
     list: Schema.Attribute.Component<'shared.list', true>;
-    location: Schema.Attribute.String;
+    location: Schema.Attribute.Text;
     start_date: Schema.Attribute.Date;
   };
 }

@@ -646,9 +646,9 @@ export interface ApiResumeResume extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    designation: Schema.Attribute.String;
+    designation: Schema.Attribute.Text;
     education: Schema.Attribute.Component<'shared.education', true>;
-    introduction: Schema.Attribute.String;
+    introduction: Schema.Attribute.Text;
     languages: Schema.Attribute.Component<'shared.languages', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -657,9 +657,9 @@ export interface ApiResumeResume extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     major_projects: Schema.Attribute.Component<'shared.major-projects', true>;
-    name: Schema.Attribute.String;
+    name: Schema.Attribute.Text;
     publishedAt: Schema.Attribute.DateTime;
-    resume_ref_id: Schema.Attribute.String;
+    resume_ref_id: Schema.Attribute.Text;
     skills: Schema.Attribute.Component<'shared.skills', true>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

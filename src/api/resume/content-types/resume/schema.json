@@ -12,16 +12,16 @@
   "pluginOptions": {},
   "attributes": {
     "resume_ref_id": {
-      "type": "string"
+      "type": "text"
     },
     "name": {
-      "type": "string"
+      "type": "text"
     },
     "designation": {
-      "type": "string"
+      "type": "text"
     },
     "introduction": {
-      "type": "string"
+      "type": "text"
     },
     "skills": {
       "type": "component",

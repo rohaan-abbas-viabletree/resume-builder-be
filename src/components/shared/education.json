@@ -13,10 +13,10 @@
       "type": "date"
     },
     "education_name": {
-      "type": "string"
+      "type": "text"
     },
     "education_info": {
-      "type": "string"
+      "type": "text"
     },
     "is_current": {
       "type": "boolean"

@@ -6,7 +6,7 @@
   "options": {},
   "attributes": {
     "description": {
-      "type": "string"
+      "type": "text"
     }
   },
   "config": {}

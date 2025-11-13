@@ -7,10 +7,10 @@
   "options": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "project_list": {
       "type": "component",

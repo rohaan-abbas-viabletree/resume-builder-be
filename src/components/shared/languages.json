@@ -7,10 +7,10 @@
   "options": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "text"
     },
     "level_name": {
-      "type": "string"
+      "type": "text"
     },
     "level": {
       "type": "integer"

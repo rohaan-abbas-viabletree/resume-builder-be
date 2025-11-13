@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "skill_name": {
-      "type": "string"
+      "type": "text"
     },
     "skill_level": {
       "type": "integer"
