@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_certificates",
+  "info": {
+    "displayName": "certificates"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

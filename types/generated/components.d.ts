@@ -1,5 +1,16 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface SharedCertificates extends Struct.ComponentSchema {
+  collectionName: 'components_shared_certificates';
+  info: {
+    displayName: 'certificates';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    name: Schema.Attribute.Text;
+  };
+}
+
 export interface SharedEducation extends Struct.ComponentSchema {
   collectionName: 'components_shared_educations';
   info: {
@@ -155,6 +166,7 @@ export interface SharedWorkHistory extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'shared.certificates': SharedCertificates;
       'shared.education': SharedEducation;
       'shared.languages': SharedLanguages;
       'shared.list': SharedList;

@@ -643,6 +643,7 @@ export interface ApiResumeResume extends Struct.CollectionTypeSchema {
     draftAndPublish: false;
   };
   attributes: {
+    certificates: Schema.Attribute.Component<'shared.certificates', true>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

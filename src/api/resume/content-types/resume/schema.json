@@ -47,6 +47,11 @@
       "type": "component",
       "component": "shared.languages",
       "repeatable": true
+    },
+    "certificates": {
+      "type": "component",
+      "component": "shared.certificates",
+      "repeatable": true
     }
   }
 }
